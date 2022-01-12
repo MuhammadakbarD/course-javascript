@@ -17,7 +17,7 @@
  */
 import './dnd.html';
 
-const homeworkContainer = document.querySelector('#homework-container');
+const homeworkContainer = document.querySelector('#app');
 
 function random(from, to) {
   return parseInt(from + Math.random() * to - from);
