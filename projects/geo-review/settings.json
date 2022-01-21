@@ -1,21 +1,21 @@
 {
   "proxy": {
-    "/geo-review-3/list": {
+    "/geo-review/list": {
       "target": "http://localhost:8181",
       "pathRewrite": {
-        "^/geo-review-3": ""
+        "^/geo-review": ""
       }
     },
-    "/geo-review-3/add": {
+    "/geo-review/add": {
       "target": "http://localhost:8181",
       "pathRewrite": {
-        "^/geo-review-3": ""
+        "^/geo-review": ""
       }
     },
-    "/geo-review-3/coords": {
+    "/geo-review/coords": {
       "target": "http://localhost:8181",
       "pathRewrite": {
-        "^/geo-review-3": ""
+        "^/geo-review": ""
       }
     }
   }
